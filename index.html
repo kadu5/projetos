@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Starbucks</title>
+        <link rel="shortcut icon" href="jpg/logo.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="jpg/logo.png" class="logo"></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, earum ab. Dolor, repellat laborum officia, dolore sint hic officiis quasi placeat corporis fugiat, eveniet molestiae iste totam magni nobis nam!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="jpg/c1.png" class="starbucks">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="jpg/c1.png" onclick="imgSlider('jpg/c1.png');changeCircleColor('#017143')"></li>
+                <li><img src="jpg/c2.png" onclick="imgSlider('jpg/c2.png');changeCircleColor('#eb7495')"></li>
+                <li><img src="jpg/c3.png" onclick="imgSlider('jpg/c3.png');changeCircleColor('#d752b1')"></li>
+        </section>
+        <section class="shop">
+            <div class="heading">
+                <span>Shop Now</span>
+                <h1>Shop Coffee</h1>
+            </div>
+                </div>
+                <div class="shop-conteiner">
+                    <div class="box">
+                        <div class="box-img">
+                            <img src="jpg/c2.png" alt="">
+                        </div>
+                        <h2>Starbucks Coffee</h2>
+                        <span>$ 12.4</span>
+                        <a href="#" class="bnt">Order Now</a>
+                    </div>
+                    <div class="shop-conteiner">
+                        <div class="box">
+                            <div class="box-img">
+                                <img src="jpg/c3.png" alt="">
+                            </div>
+                            <h2>Starbucks Coffee</h2>
+                            <span>$ 12.4</span>
+                            <a href="#" class="bnt">Order Now</a>
+                        </div>
+            </div>
+        </section> 
+                </div>
+                 <div class="conteiner">
+                    <div class="delivery-img">
+                        <img src="jpg/delivery.png" alt="" height="500px" class="img">
+                    </div>
+                    <div class="delivery-text">
+                        <h2>Hoje merece entrega</h2>
+                        <p>     Nós, do Starbucks, entendemos que há momentos em que você deseja a experiência do café 
+                                premium no conforto do seu lar, 
+                                 no escritório ou em qualquer lugar que você esteja. É por isso que estamos 
+                                felizes em apresentar nosso serviço de delivery, 
+                                trazendo todo o sabor e a qualidade Starbucks diretamente para você!
+                            </p>
+                           
+                    </div>
+                 </div>
+                 <section class="shop">
+                    <div class="heading">
+                        <span>Compre agora</span>
+                        <h1>Acesse no cardápio</h1>
+                        <img src="jpg/bg3.jpg" alt="">
+                    </section>
+                    
+            <div class="button-container">
+           <a href="cardapio.html" class="menu-button">Acesse o Cardápio</a>
+        </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        function imgSlider(anything){
+            document.querySelector('.starbucks').src = anything
+        }
+
